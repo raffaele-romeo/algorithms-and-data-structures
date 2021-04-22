@@ -4,6 +4,7 @@ import zio._
 
 final case class CacheItem[K, V](value: V, left: Option[K], right: Option[K])
 
+/*
 final class LRUCache[K, V] private (
                                      private val capacity: Int,
                                      private val itemsRef: Ref[Map[K, CacheItem[K, V]]],
@@ -127,3 +128,4 @@ object LRUCache {
       ZIO.fail(new IllegalArgumentException("Capacity must be a positive number!"))
     }
 }
+*/

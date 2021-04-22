@@ -1,7 +1,13 @@
+import Dependencies.Libraries
+
 name := "algorithms-and-data-structures"
-
 version := "0.1"
+scalaVersion := "2.13.5"
 
-scalaVersion := "2.12.12"
+libraryDependencies ++= Seq(
+  Libraries.cats,
+  Libraries.zio,
 
-libraryDependencies += "dev.zio" %% "zio" % "1.0.5"
+  //TEST
+  Libraries.scalaTest
+)
