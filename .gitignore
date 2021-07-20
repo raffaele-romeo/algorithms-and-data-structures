@@ -26,5 +26,10 @@ docs/src/main/tut/contributing.md
 result*
 .bsp
 null
-
+.bloop/
+.metals/
+.vscode/
+project/.bloop/
+project/metals.sbt
+project/project/
 
