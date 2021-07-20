@@ -17,7 +17,7 @@ object WilliamHillTask2 {
         case (c, c1) => c != c1 & c != SpecialCharacter & c1 != SpecialCharacter
       }
 
-      if (findPairs.isEmpty) true else false
+      findPairs.isEmpty
     }
   }
 
