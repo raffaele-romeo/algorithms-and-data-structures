@@ -1,4 +1,4 @@
-package interview
+package general
 
 import scala.util.Try
 

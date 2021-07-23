@@ -15,7 +15,8 @@ object SpecialStringAgain {
       output = output + (countSameElems * (countSameElems + 1)) / 2
 
       var pointer = 1
-      while (i - pointer >= 0 && i + pointer < s.length && s.charAt(i + pointer) == s.charAt(i - 1) && s.charAt(i - pointer) == s.charAt(i - 1)) {
+      while (i - pointer >= 0 && i + pointer < s.length &&
+        s.charAt(i + pointer) == s.charAt(i - 1) && s.charAt(i - pointer) == s.charAt(i - 1)) {
         output += 1
         pointer += 1
       }

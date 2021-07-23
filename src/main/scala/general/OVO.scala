@@ -1,4 +1,4 @@
-package interview
+package general
 
 /*
 Imagine the list was circular. So in the above example, apple would follow orange:
