@@ -3,6 +3,7 @@ package string
 object SpecialStringAgain {
 
   def substrCount(n: Int, s: String): Long = {
+    s.permutations
     val sDim = s.length
     var output = sDim
     var i = 0
