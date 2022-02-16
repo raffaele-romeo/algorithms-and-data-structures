@@ -5,7 +5,7 @@ import scala.collection.mutable.{ListBuffer => MList}
 object SubstringOfAString {
 
   def subStrings(s: String): List[String] = {
-    var output = MList.empty[String]
+    val output = MList.empty[String]
     for (i <- s.indices) {
       for (j <- i + 1 to s.length) {
         output.addOne(s.substring(i, j))
